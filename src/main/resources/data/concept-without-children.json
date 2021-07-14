@@ -1,0 +1,51 @@
+[
+  {
+    "code": "AD0101",
+    "display": "Arztberichte",
+    "designation": [
+      {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000003001",
+          "display": "Fully specified name"
+        },
+        "language":"de",
+        "value":"Arztberichte"
+      }, {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "language":"de",
+        "value":"Arztbefunde"
+      }
+    ]
+  }, {
+    "code": "AD0201",
+    "display": "Bescheinigungen",
+    "designation": [
+      {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000003001",
+          "display": "Fully specified name"
+        },
+        "language":"de",
+        "value":"Bescheinigungen"
+      }, {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "language":"de",
+        "value":"Nachweise"
+      }
+    ]
+ }
+]

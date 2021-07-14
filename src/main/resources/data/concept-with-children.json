@@ -1,0 +1,73 @@
+[
+  {
+    "code": "AD0101",
+    "display": "Arztberichte",
+    "designation": [
+      {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000003001",
+          "display": "Fully specified name"
+        },
+        "language":"de",
+        "value":"Arztberichte"
+      }, {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "language":"de",
+        "value":"Arztbefunde"
+      }
+    ],
+    "concept":  [
+      {
+        "code": "AD010101",
+        "display": "Ärztliche Stellungnahme",
+        "definition": "Die Dokumentation beinhaltet die ärztliche Einschätzung zum Gesundheitszustand für nachfolgende Zwecke. Inkl.: Gutachten, Exkl.: MDK-Gutachten"
+      }, {
+        "code": "AD010102",
+        "display": "Durchgangsarztbericht",
+        "definition": "Die Dokumentation beinhaltet die ärztliche Beurteilung des Arbeits- bzw. Wegeunfalls auf standardisiertem Formular. Exkl.: Nachschaubericht"
+      }
+    ]
+  }, {
+    "code": "AD0201",
+    "display": "Bescheinigungen",
+    "designation": [
+      {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000003001",
+          "display": "Fully specified name"
+        },
+        "language":"de",
+        "value":"Bescheinigungen"
+      }, {
+        "use": {
+          "system": "http://hl7.org/fhir/ValueSet/designation-use",
+          "version": "4.0.1",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "language":"de",
+        "value":"Nachweise"
+      }
+    ],
+    "concept":  [
+      {
+        "code": "AD020101",
+        "display": "Arbeitsunfähigkeitsbescheinigung",
+        "definition": "Die Dokumentation beinhaltet Angaben über die Arbeitsunfähigkeit. Inkl.: AU KV 52"
+      }, {
+        "code": "AD020102",
+        "display": "Beurlaubung",
+        "definition": "Die Dokumentation beinhaltet die Erklärung über die Unterbrechung des stationären Aufenthaltes über einen festgelegten Zeitraum."
+      }
+    ]
+ }
+]

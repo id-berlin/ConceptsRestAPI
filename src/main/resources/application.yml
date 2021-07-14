@@ -1,0 +1,5 @@
+server:
+  path: /fhir/*
+
+id:
+  codes: classpath:/predefined-codesystems
